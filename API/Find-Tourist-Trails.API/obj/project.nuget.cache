@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iHB3dE14Gxwkdjk9exsL9rJX2PajzshTTPDIWhEZYFm9rTHq1U+/rYWkARcGX+70mqAc8nQfi2XZ48utP4CPGA==",
+  "dgSpecHash": "2IJxUBKgA/Bnwq8jZ+WuYz3pat5XfKnFHlfYxk3BIfU8bJHSqjVlr2AasU4yyG1b2KLmmIZFNgaJVqSL4dA0Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj",
+  "projectFilePath": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails-Web-App\\Find-Tourist-Trails-Web-App\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wikto\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\wikto\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

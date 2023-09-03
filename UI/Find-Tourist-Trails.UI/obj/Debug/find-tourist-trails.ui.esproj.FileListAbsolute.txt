@@ -1,1 +1,1 @@
-C:\Users\wikto\source\repos\Find-Tourist-Trails\UI\Find-Tourist-Trails.UI\obj\Debug\find-tourist-trails.ui.esproj.CoreCompileInputs.cache
+C:\Users\wikto\source\repos\Find-Tourist-Trails-Web-App\Find-Tourist-Trails-Web-App\Find-Tourist-Trails.UI\obj\Debug\find-tourist-trails.ui.esproj.CoreCompileInputs.cache

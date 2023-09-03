@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{0B087003-7D9A-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find-Tourist-Trails.API", "API\Find-Tourist-Trails.API\Find-Tourist-Trails.API.csproj", "{888A3C06-E3AB-4955-B699-A63E78191C32}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "find-tourist-trails.ui", "UI\Find-Tourist-Trails.UI\find-tourist-trails.ui.esproj", "{A0179187-D19B-470E-831E-3C1B69A37EEC}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Find-Tourist-Trails.UI", "UI\Find-Tourist-Trails.UI\Find-Tourist-Trails.UI.esproj", "{A0179187-D19B-470E-831E-3C1B69A37EEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,7 +22,6 @@ Global
 		{888A3C06-E3AB-4955-B699-A63E78191C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888A3C06-E3AB-4955-B699-A63E78191C32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Release|Any CPU.Build.0 = Release|Any CPU

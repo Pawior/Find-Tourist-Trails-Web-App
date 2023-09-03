@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj": {}
+    "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails-Web-App\\Find-Tourist-Trails-Web-App\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj": {
+    "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails-Web-App\\Find-Tourist-Trails-Web-App\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj",
+        "projectUniqueName": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails-Web-App\\Find-Tourist-Trails-Web-App\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj",
         "projectName": "Find-Tourist-Trails.API",
-        "projectPath": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj",
+        "projectPath": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails-Web-App\\Find-Tourist-Trails-Web-App\\API\\Find-Tourist-Trails.API\\Find-Tourist-Trails.API.csproj",
         "packagesPath": "C:\\Users\\wikto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails\\API\\Find-Tourist-Trails.API\\obj\\",
+        "outputPath": "C:\\Users\\wikto\\source\\repos\\Find-Tourist-Trails-Web-App\\Find-Tourist-Trails-Web-App\\API\\Find-Tourist-Trails.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wikto\\AppData\\Roaming\\NuGet\\NuGet.Config",
