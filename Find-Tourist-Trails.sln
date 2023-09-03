@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1C5FD5D5-4096-4634-9020-62187FCD2347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{0B087003-7D9A-47AA-B684-8B79EABD4D13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find-Tourist-Trails.API", "API\Find-Tourist-Trails.API\Find-Tourist-Trails.API.csproj", "{888A3C06-E3AB-4955-B699-A63E78191C32}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "find-tourist-trails.ui", "UI\Find-Tourist-Trails.UI\find-tourist-trails.ui.esproj", "{A0179187-D19B-470E-831E-3C1B69A37EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888A3C06-E3AB-4955-B699-A63E78191C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888A3C06-E3AB-4955-B699-A63E78191C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888A3C06-E3AB-4955-B699-A63E78191C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888A3C06-E3AB-4955-B699-A63E78191C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0179187-D19B-470E-831E-3C1B69A37EEC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{888A3C06-E3AB-4955-B699-A63E78191C32} = {1C5FD5D5-4096-4634-9020-62187FCD2347}
+		{A0179187-D19B-470E-831E-3C1B69A37EEC} = {0B087003-7D9A-47AA-B684-8B79EABD4D13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA1F75FE-9B3F-4815-A5E5-64B2FEB73D0A}
+	EndGlobalSection
+EndGlobal
