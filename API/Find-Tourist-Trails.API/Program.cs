@@ -1,3 +1,6 @@
+using Find_Tourist_Trails.Data;
+using Find_Tourist_Trails.Repositories;
+
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 
@@ -26,15 +29,25 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<TrailsDbContext>();
+builder.Services.AddScoped<ITrailRepository, SQLTrailRepository>();
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+
+
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+
+// U¿ywaj nawet jeœli nie jest w lokalny developmencie, chce ¿eby dzia³a³o w chmurze
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
