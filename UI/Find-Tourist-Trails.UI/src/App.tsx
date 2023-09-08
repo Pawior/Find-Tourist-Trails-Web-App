@@ -2,7 +2,8 @@ import { useState } from "react";
 
 import "./App.css";
 import Home from "./components/Home";
-import { FetchWeather } from "./components/FetchWeather";
+import FetchWeather from "./components/FetchWeather";
+import GetTrailsByDifficulty from "./components/GetTrailsByDifficulty";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         path="/"
         element={<Home count={count} setCount={setCount} />}
       ></Route>
-      <Route path="/api/Trails" element={<FetchWeather />} />
+      <Route path="/api/Trails" element={<GetTrailsByDifficulty />} />
     </Routes>
     /* eslint-disable */
 
