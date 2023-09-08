@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Find_Tourist_Trails.Data;
 using Find_Tourist_Trails.Models;
 using Find_Tourist_Trails.Repositories;
+using Find_Tourist_Trails.Models.DTO;
 
 namespace Find_Tourist_Trails.Controllers
 {
@@ -36,8 +37,24 @@ namespace Find_Tourist_Trails.Controllers
 
             var TrailsDomainList = await trailRepository.GetAllAsync(filterOn, filterQuery);
 
+            var TrailsDTOList = new List<TrailsDTO>();
+            foreach (var item in TrailsDomainList)
+            {
+                TrailsDTOList.Add(new TrailsDTO
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Description = item.Description,
+                    LengthInKm = item.LengthInKm,
+                    WalkImageUrl = item.WalkImageUrl,
+                    Difficulty = item.Difficulty,
+                    Region = item.Region,
+                    MapLink = item.MapLink,
 
-            return Ok(TrailsDomainList);
+                });
+            }
+
+            return Ok(TrailsDTOList);
             //return Ok(await _context.Trails.ToListAsync());
         }
 
