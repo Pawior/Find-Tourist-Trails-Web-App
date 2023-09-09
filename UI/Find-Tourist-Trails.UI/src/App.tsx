@@ -1,22 +1,26 @@
 import { useState } from "react";
 
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 import FetchWeather from "./components/FetchWeather";
 import GetTrailsByDifficulty from "./components/GetTrailsByDifficulty";
 import { Routes, Route } from "react-router-dom";
+import Navigation from "./Navigation";
 
 function App() {
   const [count, setCount] = useState<number>(0);
 
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={<Home count={count} setCount={setCount} />}
-      ></Route>
-      <Route path="/api/Trails" element={<GetTrailsByDifficulty />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home count={count} setCount={setCount} />}
+        ></Route>
+        <Route path="/api/Trails" element={<GetTrailsByDifficulty />} />
+      </Routes>
+    </>
     /* eslint-disable */
 
     // <>
