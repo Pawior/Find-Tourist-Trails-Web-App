@@ -12,7 +12,10 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="#home">
           {" "}
-          <GiMountainRoad></GiMountainRoad>Znajdź swój idealny szlak!
+          <GiMountainRoad
+            style={{ fontSize: "2rem", transform: "translateY(-7px)" }}
+          ></GiMountainRoad>
+          Znajdź swój idealny szlak!
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -20,13 +23,6 @@ function Navigation() {
             <Nav.Link>
               <Link to="/api/Trails">Get Trails</Link>
             </Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item>
-                {" "}
-                <Link to="/api/Trails">Home </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

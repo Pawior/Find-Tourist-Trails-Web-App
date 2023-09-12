@@ -28,6 +28,7 @@ namespace Find_Tourist_Trails.Controllers
         // GET: api/Trails
         [HttpGet]
 
+
         public async Task<ActionResult<IEnumerable<Trails>>> GetTrails([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
         {
             if (_context.Trails == null)
@@ -58,9 +59,10 @@ namespace Find_Tourist_Trails.Controllers
             //return Ok(await _context.Trails.ToListAsync());
         }
 
-        // GET: api/Trails/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Trails>> GetTrails(Guid id)
+        //GET: api/SpecificTrail/5
+        [HttpGet()]
+        [Route("{id:Guid}")]
+        public async Task<ActionResult<Trails>> GetSpecificTrail([FromRoute] Guid id)
         {
             if (_context.Trails == null)
             {
@@ -74,6 +76,39 @@ namespace Find_Tourist_Trails.Controllers
             }
 
             return trails;
+        }
+
+        //PoST: api/RandomTrails
+        [HttpPost]
+        [Route("Login")]
+        public async Task<ActionResult<Trails>> PostRandomTrails()
+        {
+            if (_context.Trails == null)
+            {
+                return NotFound();
+            }
+
+            var randomTrailsList = await _context.Trails.OrderBy(r => Guid.NewGuid()).Take(3).ToListAsync();
+
+            var TrailsDTOList = new List<TrailsDTO>();
+
+            foreach (var item in randomTrailsList)
+            {
+                TrailsDTOList.Add(new TrailsDTO
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Description = item.Description,
+                    LengthInKm = item.LengthInKm,
+                    WalkImageUrl = item.WalkImageUrl,
+                    Difficulty = item.Difficulty,
+                    Region = item.Region,
+                    MapLink = item.MapLink,
+                });
+
+            }
+
+            return Ok(randomTrailsList);
         }
 
         // PUT: api/Trails/5

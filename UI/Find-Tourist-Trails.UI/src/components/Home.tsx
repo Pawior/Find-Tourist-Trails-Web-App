@@ -8,6 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Navigation from "./Navigation";
 import "../App.css";
+import TrailDifficultyPicker from "./TrailDifficultyPicker";
 
 function Home({ count, setCount }) {
   return (
@@ -40,35 +41,7 @@ function Home({ count, setCount }) {
       <p> Get All weather forecast</p> */}
       </div>
       <div className="home-page_trails-picker">
-        <div>
-          <h2> Wybierz poziom trudności szlaku</h2>
-        </div>
-        <div>
-          <Link
-            to="/api/Trails?filterOn=difficulty&filterQuery=easy"
-            className="btn-difficulty"
-          >
-            <button className="button" type="button">
-              Łatwe szlaki
-            </button>
-          </Link>
-          <Link
-            to="/api/Trails?filterOn=difficulty&filterQuery=medium"
-            className="btn-difficulty"
-          >
-            <button className="button" type="button">
-              Umiarkowane szlaki
-            </button>
-          </Link>
-          <Link
-            to="/api/Trails?filterOn=difficulty&filterQuery=hard"
-            className="btn-difficulty"
-          >
-            <button className="button" type="button">
-              Trudne szlaki
-            </button>
-          </Link>
-        </div>
+        <TrailDifficultyPicker></TrailDifficultyPicker>
       </div>
     </>
   );
