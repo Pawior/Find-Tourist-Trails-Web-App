@@ -15,7 +15,8 @@ function Home({ count, setCount }) {
     <>
       <Navigation />
       <div className="home-page_banner">
-        <Link to="/api/Trails"> Click to Get Trails</Link>
+        {/* <Link to="/api/Trails"> Click to Get Trails</Link> */}
+
         {/* {" "}
         <FetchWeather />{" "} */}
         {/* <div>

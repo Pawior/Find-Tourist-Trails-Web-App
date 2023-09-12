@@ -65,3 +65,21 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+.container-list {
+  margin: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-list-card {
+  width: 25vw;
+  min-width: 600px;
+  margin: 1rem;
+  flex: 1 0 20rem; /* explanation below */
+  /* height: 100px; */
+  background-color: rgb(80, 207, 148);
+}
+Card {
+  width: 25vw;
+}
