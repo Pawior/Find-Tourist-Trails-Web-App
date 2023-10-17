@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Find_Tourist_Trails</RootNamespace>
+    <UserSecretsId>e345b666-e81e-4a0a-a66f-c8c56b104ef0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-10-17T18:09:39.2263188Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-10-17T18:09:12.3255907Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "760ecfcb-0e13-4a03-89f2-989ebc643c9b"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "rg-FindTouristTrails-eucentral-dev-001"
+    }
+  }
+}
